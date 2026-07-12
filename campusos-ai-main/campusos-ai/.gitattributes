@@ -1,0 +1,17 @@
+# Auto-detect text files and normalize them to LF in the repository.
+# Working tree uses platform line endings.
+* text=auto eol=lf
+
+# Ensure JSON stays consistent.
+*.json text eol=lf
+*.md text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sql text eol=lf
+

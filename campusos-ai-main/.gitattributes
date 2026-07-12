@@ -1,0 +1,20 @@
+# Enforce consistent line endings for core Git files to avoid warnings.
+.gitattributes text eol=lf
+.gitignore   text eol=lf
+
+# Set default behavior for all files to handle line endings automatically.
+# This will store text files with LF endings in Git and convert them to the
+# native line ending (CRLF on Windows) on checkout.
+* text=auto
+
+# Explicitly declare files that should always have LF line endings, regardless of the OS.
+# This is especially important for shell scripts.
+*.sh eol=lf
+
+# Mark specific file types as binary so Git won't try to change their line endings.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
